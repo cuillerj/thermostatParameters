@@ -92,7 +92,10 @@ input from micro controler point of vue
 #define updateRegisterRequest 0x0c
 #define updateSchedulRequest 0x0d
 #define writeEepromRequest 0x0e
-
+#define uploadScheduleRequest 0x0f
+#define uploadTemperatures 0x10
+#define uploadRegisters 0x11
+#define tracePIDRequest 0x12
 /*
 output from micro controler point of vue
 */
@@ -101,7 +104,7 @@ output from micro controler point of vue
 #define temperatureListResponse temperatureListRequest|requestResponseMask
 #define registerResponse registerRequest|requestResponseMask
 #define registersResponse registersRequest|requestResponseMask
-
+#define sendPIDResponse tracePIDRequest|requestResponseMask
 #define timeUpdateRequest 0x01
 #define extTempUpdateRequest 0x02
 /*

@@ -1,4 +1,4 @@
-#define firstScheduleIndicatorPosition 50       // position of the first schedule byte in the indicaotr table
+#define firstScheduleIndicatorPosition 0      // position of the first schedule byte in the indicaotr table
 #define scheduleSize 217
 uint8_t Schedule[scheduleSize]={   //  24h(1/2h par demi octet)*7j+1 +1
   // dimanche
