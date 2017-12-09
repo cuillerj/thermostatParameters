@@ -96,6 +96,7 @@ input from micro controler point of vue
 #define uploadTemperatures 0x10
 #define uploadRegisters 0x11
 #define tracePIDRequest 0x12
+#define setInstruction 0x13
 /*
 output from micro controler point of vue
 */
@@ -120,7 +121,7 @@ GPIOs default values
 
 #define oneWirePIN 8
 //#define configWifiPIN 11
-#define configPIN 12
+#define configPIN 11
 /*
  Infra Red decode values
 */
