@@ -4,7 +4,7 @@
 #define reactivity 65     // express in 1/100 of °celsius the heating system capacity to increase temperature in 30mn with 10° outside tempreature
 #define sizeAnticipation 7  // the window size of 30mn schedule steps that is taken into account to anticipate the warming need
 #define maximumTemperature 220  // 
-#define minimumTemperature 100
+#define minimumTemperature 60
 #define outHomeTemperatureDecrease 5
 #define KpPID 20
 #define KiPID 30
